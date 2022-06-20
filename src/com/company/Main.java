@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         Service service = new Service(new Job("12345", "name-blabla"));
-        String mappedValue = service.mapName("Tilde GE", new Mapper().getMap());
+        String mappedValue = service.mapName("Tilde GE", new MapTest().getMap());
 
         UrlBuilder urlBuilder = new UrlBuilder.Builder()
             .element(HtmlElements.LINK_OPEN)

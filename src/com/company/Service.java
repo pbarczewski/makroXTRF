@@ -22,7 +22,7 @@ public class Service {
     }
 
     public String mapName(String old, Map<String, String> map) throws Exception {
-        return Mapping.mapper(old, map);
+        return Mapper.mapper(old, map);
     }
 
 
