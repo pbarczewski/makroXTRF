@@ -53,6 +53,11 @@ public class UrlBuilder {
             return this;
         }
 
+        public Builder join(String text) {
+            stringBuilder.append(text);
+            return this;
+        }
+
         public UrlBuilder build() {
             return new UrlBuilder(this);
         }
