@@ -44,7 +44,6 @@ public class UrlBuilder {
         public Builder setParameters(HtmlElements parameter, String value) {
             if(numOfParams > 0) {
                 stringBuilder.append(Delimeters.AMP.getDelimeter());
-
             }
             stringBuilder.append(parameter.getElement());
             stringBuilder.append(Delimeters.EQ.getDelimeter());

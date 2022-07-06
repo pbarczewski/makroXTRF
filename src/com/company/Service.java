@@ -1,9 +1,6 @@
 package com.company;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Map;
-import java.util.SplittableRandom;
+
 
 public class Service {
     private final Job job;
@@ -27,8 +24,5 @@ public class Service {
     public String mapName(String old, Map<String, String> map) throws Exception {
         return Mapper.mapper(old, map);
     }
-
-    private URL createUrl(String url) throws MalformedURLException {
-        return new URL(url);
-    }
 }
+

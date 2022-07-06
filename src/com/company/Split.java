@@ -6,3 +6,5 @@ public interface Split {
         return name.split("-")[0];
     }
 }
+
+
